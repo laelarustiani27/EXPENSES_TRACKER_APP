@@ -1,41 +1,33 @@
-# 💸 Expense Tracker Application
+# 💰 Expense Tracker App
 
-This advanced Flutter project allows users to efficiently manage their incomes and expenses through a modern interface. The application adopts modern mobile development practices such as state management with **Provider**, data persistence with a **local database**, and a clean code architecture.
+Aplikasi pengelola keuangan pribadi yang mudah dan efisien untuk mencatat pengeluaran serta pemasukan harian Anda.
 
-You can analyze your financial situation with category-based pie charts, easily record your incomes and expenses, and store all your data securely on your device.
+---
 
-## ✨ Advanced Features
+## 📱 Fitur Utama
 
-- ✅ **Data Persistence:** All income and expense records are securely stored in the local device database, even when the app is closed.
-- ✅ **Provider State Management:** An efficient, scalable, and manageable state management architecture built using the `Provider` package.
-- ✅ **Income and Expense Management:** Ability to add and manage income items, not just expenses.
-- ✅ **Visual Reporting:** Visually analyze your budget with interactive pie charts that show the distribution of spending categories.
-- ✅ **Clean Architecture:** An easy-to-maintain and develop codebase with a clear separation of responsibilities into layers.
-- ✅ **Modern UI:** A sleek and simple design that prioritizes user experience.
+- 📊 Mencatat pengeluaran dan pemasukan
+- 💼 Menampilkan saldo dan riwayat transaksi
+- 👤 Kelola profil pengguna
+- 💰 Tambah dan tarik saldo dompet
+- 🎨 UI modern dengan animasi smooth
 
-## 🚀 Running the Project
+---
 
-### Prerequisites
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.x or higher)
-- An IDE (Android Studio, VS Code, etc.)
+## 🛠 Teknologi yang Digunakan
 
-### Installation Steps
-1. Clone the project:
-   ```bash
-   git clone [https://github.com/halilkeskin16/expense_tracker.git](https://github.com/halilkeskin16/expense_tracker.git)
-Navigate to the project directory: cd expense_tracker
+- **Flutter** 3.0+
+- **Provider** untuk state management
+- **SQLite** sebagai database lokal
+- **Shared Preferences** untuk penyimpanan data ringan
 
-Install the dependencies: flutter pub get
+---
+![WhatsApp Image 2026-01-15 at 18 27 29](https://github.com/user-attachments/assets/fff557e8-1c7b-4f85-b062-22a91f387ec8)
 
-Run the application: flutter run
 
-🛠️ Tech Stack & Architecture
-Flutter: UI Toolkit.
+## 🚀 Cara Menjalankan Aplikasi
 
-Provider: Used for efficient state management throughout the application.
-
-sqflite (Presumed): Local SQL database used for persistent data storage.
-
-fl_chart (Presumed): A powerful charting library used to create pie charts on the statistics screen.
-
-Layered Architecture: An approach that ensures the code is organized, testable, and sustainable.
+### 1. Clone Repository
+```bash
+git clone https://github.com/laelarustiani27/EXPENSES_TRACKER_APP.git
+cd EXPENSES_TRACKER_APP
